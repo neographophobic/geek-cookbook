@@ -54,7 +54,6 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /var/data/jellyfin:/config
       - /var/data/runtime/jellyfin:/cache
-      - /var/data/jellyfin/jellyfin:/config
       - /srv/data/:/data
     deploy:
       labels:
